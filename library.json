@@ -1,0 +1,43 @@
+{
+  "name": "EmbeddedDataConvert",
+  "version": "1.0.0",
+  "description": "Professional, ultra-lightweight, standalone C library for data conversion, parsing, formatting, UTF-8/Unicode transcoding, Persian/Arabic normalization, and GPS NMEA for STM32, ESP32, and bare-metal MCUs.",
+  "keywords": [
+    "stm32",
+    "esp32",
+    "data-conversion",
+    "parser",
+    "formatting",
+    "fixed-point",
+    "unicode",
+    "utf-8",
+    "persian",
+    "arabic",
+    "gps",
+    "nmea",
+    "embedded",
+    "misra-c"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hamid-enf/generally.git"
+  },
+  "authors": [
+    {
+      "name": "EmbeddedDataConvert Team",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "frameworks": ["*"],
+  "platforms": ["*"],
+  "build": {
+    "includeDir": "include",
+    "srcDir": "src",
+    "flags": [
+      "-std=c99",
+      "-Wall",
+      "-Wextra"
+    ]
+  }
+}
